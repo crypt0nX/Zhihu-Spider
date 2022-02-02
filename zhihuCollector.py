@@ -22,9 +22,9 @@ eg：
 def main():
     isDelete = False
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "u:d:c:", ["username=", "delete=", "cookie="])
+        opts, args = getopt.getopt(sys.argv[1:], "hu:d:c:", ["help", "username=", "delete=", "cookie="])
         for opt, arg in opts:
-            if opt == '-h':
+            if opt in ("-h", "--help"):
                 help()
             elif opt in ("-u", "--username"):
                 username = arg
