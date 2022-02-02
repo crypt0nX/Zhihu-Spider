@@ -18,9 +18,9 @@ python zhihuCollector.py --help
     -d --delete                 是否选择删除动态（删除动态必须保证Cookie有效）
 ```
 
-### 动态爬取
+## 动态爬取
 
-#### 命令行执行
+### 命令行执行
 
 ```python3 zhihuCollector.py -u zhihuadmin```
 
@@ -34,9 +34,9 @@ python zhihuCollector.py --help
 
 执行完成后会在当前页面生成csv文件。
 
-### 动态批量删除
+## 动态批量删除
 
-#### 命令行执行
+### 命令行执行
 
 ``` python3 zhihuCollector.py --username zhihuadmin --delete True --cookie 'Your Cookie'```
 
