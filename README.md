@@ -26,6 +26,8 @@ python zhihuCollector.py --help
 
 ```username```参数从该用户知乎主页的url获得，以知乎小管家为例：
 ```https://www.zhihu.com/people/zhihuadmin```此时```zhihuadmin```即为用户名。
+
+
 ![avatar](images/admin.png)
 
 ![avatar](images/result.png)
